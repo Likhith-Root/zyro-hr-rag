@@ -18,6 +18,8 @@ st.set_page_config(
 # ── Environment ──────────────────────────────────────────────────
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"]    = "zyro-rag-challenge"
+os.environ["GROQ_API_KEY"] = st.secrets["GROQ_API_KEY"]
+os.environ["LANGCHAIN_API_KEY"] = st.secrets["LANGCHAIN_API_KEY"]
 
 CORPUS_PATH = "./"   # folder containing all 11 HR PDFs
 
