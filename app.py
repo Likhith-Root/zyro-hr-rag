@@ -19,7 +19,7 @@ st.set_page_config(
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_PROJECT"]    = "zyro-rag-challenge"
 
-CORPUS_PATH = "./hr_docs/"   # folder containing all 11 HR PDFs
+CORPUS_PATH = "./"   # folder containing all 11 HR PDFs
 
 REFUSAL_MESSAGE = (
     "I'm sorry, I can only answer HR-related questions based on "
