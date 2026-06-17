@@ -75,7 +75,7 @@ def build_pipeline():
         search_kwargs={"k": 5, "fetch_k": 10}
     )
 
-    llm = ChatGroq(model="llama3-8b-8192", temperature=0.1, max_tokens=512)
+    llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.1, max_tokens=512)
     return retriever, llm
 
 
